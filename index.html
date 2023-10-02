@@ -3,62 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>WebStudio</title>
   </head>
 
   <body>
     <header>
-      <p style="font-size: large">Web<span style="color: #2196f3;">Studio</span></p>
+      <p class="logo">Web<span class="accent-logo">Studio</span></p>
       <nav>
-        <ul style="list-style-type: none">
-          <li><a href="#" style="color: #2196f3">Студія</a></li>
+        <ul class="contact">
+          <li><a href="./index.html">Студія</a></li>
 
-          <li><a href="./portfolio.html" style="color: black">Портфоліо</a></li>
+          <li><a href="./portfolio.html">Портфоліо</a></li>
 
-          <li><a href="#" style="color: black">Контакти</a></li>
+          <li><a class="contact_nav" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul style="list-style-type: none">
+      <ul class="contact">
         <li>
-          <a href="mailto:info@devstudio.com" style="color: #2196f3"
+          <a class="email" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111" style="color: black">+380 96 111 11 11</a>
+          <a class="phone" href="tel:+380961111111">+380 96 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1 style="text-align: center">Ефективні рішення для вашого бізнесу</h1>
-        <div style="text-align: center; width: 100%">
-          <button type="button">Замовити послугу</button>
-        </div>
+      <section class="order-section">
+        <h1>Ефективні рішення для вашого бізнесу</h1>
+
+        <button type="button">Замовити послугу</button>
       </section>
       <section>
-        <ul style="list-style-type: none; display: flex; flex-wrap: wrap">
-          <li style="width: 225px">
+        <ul class="warning-ul">
+          <li>
             <h3>Увага до деталей</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li style="width: 225px">
+          <li>
             <h3>Пунктуальність</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li style="width: 225px">
+          <li>
             <h3>Планування</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li style="width: 225px">
+          <li>
             <h3>Сучасні технології</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -67,24 +67,24 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 style="text-align: center">Чим ми займаємося</h2>
-        <ul style="list-style-type: none; display: flex; flex-wrap: wrap">
-          <li style="width: 450px">
+      <section class="what-make-we-section">
+        <h2>Чим ми займаємося</h2>
+        <ul class="photo-ul">
+          <li>
             <img src="./images/programming.jpg" alt="programming" width="250" />
           </li>
-          <li style="width: 450px">
+          <li>
             <img src="./images/smartphones.jpg" alt="smartphones" width="250" />
           </li>
-          <li style="width: 450px">
+          <li>
             <img src="./images/tablet.jpg" alt="tablet" width="250" />
           </li>
         </ul>
       </section>
-      <section style="padding: 55px">
-        <h2 style="text-align: center">Наша команда</h2>
-        <ul style="list-style-type: none; display: flex; flex-wrap: wrap">
-          <li style="width: 300px">
+      <section class="who-we-are-section">
+        <h2>Наша команда</h2>
+        <ul class="who-we-are-ul">
+          <li>
             <img
               src="./images/igor_demianenko.jpg"
               alt="igor demianenko"
@@ -93,12 +93,12 @@
             <h3>Ігор Дем'яненко</h3>
             <p>Product Designer</p>
           </li>
-          <li style="width: 300px">
+          <li>
             <img src="./images/olga_repina.jpg" alt="olga repina" width="210" />
             <h3>Ольга Рєпіна</h3>
             <p>Frontend Developer</p>
           </li>
-          <li style="width: 300px">
+          <li>
             <img
               src="./images/mykola_tarasov.jpg"
               alt="mykola tarasov"
@@ -107,7 +107,7 @@
             <h3>Микола Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li style="width: 300px">
+          <li>
             <img
               src="./images/mykhailo_yermakov.jpg"
               alt="mykhailo yermakov"
@@ -119,10 +119,10 @@
         </ul>
       </section>
     </main>
-    <footer style="padding: 55px">
-      <p style="font-size: large;">Web<span style="color: #2196f3;">Studio</span></p>
+    <footer>
+      <p class="logo"><span style="color: #2196f3">Web</span>Studio</p>
 
-      <ul style="list-style-type: none">
+      <ul>
         <li>
           <address>
             <a href="https://maps.app.goo.gl/MXiaSkVnivUgPdz2A" target="_blank"
