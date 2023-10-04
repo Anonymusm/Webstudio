@@ -1,10 +1,9 @@
 :root {
-  --accent-color: #2196F3;
-  --main-color:  #212121;
+  --accent-color: #2196f3;
+  --main-color: #212121;
   --text-color: #757575;
-  --section-bg-color: #F5F4FA;
-  --header-bg-color: #ECECEC;
-  --footer-bg-color: #2F303A;
+  --section-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
   --info-color: #ffffff;
 }
 
@@ -17,12 +16,12 @@
 } */
 
 /* header a { */
-  /* color: black; */
-  /* text-decoration: none; */
+/* color: black; */
+/* text-decoration: none; */
 /* } */
 
 /* header a:hover { */
-  /* color: #2196f3; */
+/* color: #2196f3; */
 /* } */
 
 /* .contact {
@@ -30,16 +29,16 @@
 } */
 
 /* .order-section { */
-  /* background-color: #2f303a; */
-  /* padding: 150px; */
-  /* color: white; */
-  /* text-align: center; */
+/* background-color: #2f303a; */
+/* padding: 150px; */
+/* color: white; */
+/* text-align: center; */
 /* } */
 
 /* .order-section button[type="button"] { */
-  /* height: 50px; */
-  /* background-color: #2196f3; */
-  /* color: white; */
+/* height: 50px; */
+/* background-color: #2196f3; */
+/* color: white; */
 /* } */
 
 /* .warning-ul {
@@ -71,9 +70,9 @@
 } */
 
 /* .who-we-are-section { */
-  /* padding: 55px;
+/* padding: 55px;
   text-align: center; */
-  /* background-color: #f5f4fa;
+/* background-color: #f5f4fa;
 } */
 
 /* .who-we-are-ul {
