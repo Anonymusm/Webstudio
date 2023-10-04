@@ -1,63 +1,62 @@
-.logo {
+:root {
+  --accent-color: #2196F3;
+  --main-color:  #212121;
+  --text-color: #757575;
+  --section-bg-color: #F5F4FA;
+  --header-bg-color: #ECECEC;
+  --footer-bg-color: #2F303A;
+  --info-color: #ffffff;
+}
+
+/* .logo {
   font-size: 30px;
-}
+} */
 
-.accent-logo {
+/* .accent-logo {
   color: #2196f3;
-}
+} */
 
-header a[href*="./index"] {
-  color: #2196f3;
-}
+/* header a { */
+  /* color: black; */
+  /* text-decoration: none; */
+/* } */
 
-header a[href*="./portfolio"] {
-  color: black;
-}
+/* header a:hover { */
+  /* color: #2196f3; */
+/* } */
 
-header a[href*="#"] {
-  color: black;
-}
-
-.contact {
+/* .contact {
   list-style-type: none;
-}
+} */
 
-.phone {
-  color: black;
-}
+/* .order-section { */
+  /* background-color: #2f303a; */
+  /* padding: 150px; */
+  /* color: white; */
+  /* text-align: center; */
+/* } */
 
-.email {
-  color: #2196f3;
-}
+/* .order-section button[type="button"] { */
+  /* height: 50px; */
+  /* background-color: #2196f3; */
+  /* color: white; */
+/* } */
 
-.order-section {
-  background-color: #2f303a;
-  padding: 150px;
-  color: white;
-  text-align: center;
-}
-
-.order-section button[type="button"] {
-  height: 50px;
-  background-color: #2196f3;
-  color: white;
-}
-
-.warning-ul {
+/* .warning-ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.warning-ul li {
+/* .warning-ul li {
   width: 350px;
-}
+} */
 
-.warning-ul li p {
+/* .warning-ul li p {
   color: #757575;
-}
+} */
 
-.what-make-we-section {
+/* .what-make-we-section {
   text-align: center;
 }
 
@@ -69,23 +68,24 @@ header a[href*="#"] {
 
 .photo-ul li {
   width: 450px;
-}
+} */
 
-.who-we-are-section {
-  padding: 55px;
-  text-align: center;
-}
+/* .who-we-are-section { */
+  /* padding: 55px;
+  text-align: center; */
+  /* background-color: #f5f4fa;
+} */
 
-.who-we-are-ul {
+/* .who-we-are-ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-}
-
+} */
+/* 
 .who-we-are-ul li {
   width: 320px;
 }
 
 footer ul {
   list-style-type: none;
-}
+} */
