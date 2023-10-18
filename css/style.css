@@ -7,6 +7,59 @@
   --info-color: #ffffff;
 }
 
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
+.team-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+header nav .contact li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.contact li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.who-we-are-ul li p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+footer a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.warning-ul li p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.order-section button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.warning-ul h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
 /* .logo {
   font-size: 30px;
 } */
