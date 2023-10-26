@@ -31,24 +31,20 @@
   font-weight: 500;
 }
 
-.team-info {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-}
-
-footer a {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-}
-
 h2 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
+  color: var(--main-color);
+  font-size: 36px;
+  letter-spacing: 1.08px;
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
+  font-size: 44px;
   font-weight: 900;
+  line-height: 13.6px;
+  /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -64,7 +60,8 @@ header a {
   text-decoration: none;
 }
 
-header a:hover {
+.header-link:hover,
+.navigation-link:hover {
   color: #2196f3;
 }
 
@@ -88,6 +85,10 @@ header a:hover {
   font-weight: 700;
 }
 
+.advantage {
+  padding: 30px;
+}
+
 .advantage-list {
   list-style-type: none;
   display: flex;
@@ -99,18 +100,25 @@ header a:hover {
 }
 
 .advantage-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  color: var(--main-color);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 
 .advantage-text {
   color: #757575;
-  font-family: "Roboto", sans-serif;
+
+  font-family: Roboto;
+  font-size: 14px;
   font-weight: 400;
+  line-height: 17.1px;
+  letter-spacing: 0.42px;
 }
 
 .work {
   text-align: center;
+  padding: 50px;
 }
 
 .work-list {
@@ -129,6 +137,10 @@ header a:hover {
   background-color: #f5f4fa;
 }
 
+.team-box {
+  background-color: var(--info-color);
+}
+
 .team-list {
   list-style-type: none;
   display: flex;
@@ -137,6 +149,19 @@ header a:hover {
 
 .team-item {
   width: 320px;
+}
+
+.team-item-title {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.team-info {
+  color: #757575;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.48px;
 }
 
 .footer {
@@ -150,11 +175,18 @@ header a:hover {
 
 .address-link {
   color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  /* line-height: 17.1px; */
+  letter-spacing: 0.42px;
+  text-decoration: none;
 }
 
-.address-email,
-.address-phone {
-  color: rgba(255, 255, 255, 0.6);
+.address-link[href^="tel:"],
+.address-link[href^="mailto:"] {
+    color: rgba(255, 255, 255, 0.60);
+      /* line-height: 1.71px; /*
+     /* 171.429% */
 }
 
 .footer-logo {
