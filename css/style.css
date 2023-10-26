@@ -7,7 +7,7 @@
   --info-color: #ffffff;
 }
 
-* {
+body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -20,14 +20,8 @@
   color: #2196f3;
 }
 
-.team-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-
 .navigation-link,
 .header-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
@@ -36,6 +30,37 @@ h2 {
   color: var(--main-color);
   font-size: 36px;
   letter-spacing: 1.08px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.accent-logo {
+  color: #2196f3;
+}
+
+.navigation-link,
+.header-contact-link {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.header-contact-link:hover,
+.navigation-link:hover {
+  color: #2196f3;
+}
+
+.navigation-list,
+.header-contact-list {
+  list-style-type: none;
+}
+
+.hero {
+  background-color: #2f303a;
+  padding: 150px;
+  color: white;
+  text-align: center;
 }
 
 .hero-title {
@@ -47,41 +72,10 @@ h2 {
   text-transform: uppercase;
 }
 
-.logo {
-  font-size: 30px;
-}
-
-.accent-logo {
-  color: #2196f3;
-}
-
-header a {
-  color: black;
-  text-decoration: none;
-}
-
-.header-link:hover,
-.navigation-link:hover {
-  color: #2196f3;
-}
-
-.navigation-list,
-.header-list {
-  list-style-type: none;
-}
-
-.hero {
-  background-color: #2f303a;
-  padding: 150px;
-  color: white;
-  text-align: center;
-}
-
 .hero-btn {
   height: 50px;
   background-color: #2196f3;
   color: white;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -108,8 +102,6 @@ header a {
 
 .advantage-text {
   color: #757575;
-
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 17.1px;
@@ -137,8 +129,8 @@ header a {
   background-color: #f5f4fa;
 }
 
-.team-box {
-  background-color: var(--info-color);
+.team-name {
+  font-weight: 500;
 }
 
 .team-list {
@@ -149,6 +141,10 @@ header a {
 
 .team-item {
   width: 320px;
+}
+
+.team-box {
+  background-color: var(--info-color);
 }
 
 .team-item-title {
@@ -169,6 +165,16 @@ header a {
   padding: 45px;
 }
 
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  color: #fff;
+}
+
+.footer-accent-logo {
+  color: #2196f3;
+}
+
 .address-list {
   list-style-type: none;
 }
@@ -184,17 +190,9 @@ header a {
 
 .address-link[href^="tel:"],
 .address-link[href^="mailto:"] {
-    color: rgba(255, 255, 255, 0.60);
-      /* line-height: 1.71px; /*
+  color: rgba(255, 255, 255, 0.6);
+  /* line-height: 1.71px; /*
      /* 171.429% */
 }
 
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 28px;
-  color: #fff;
-}
 
-.footer-accent-logo {
-  color: #2196f3;
-}
