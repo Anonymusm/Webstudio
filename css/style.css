@@ -47,7 +47,10 @@ h2 {
 }
 
 .logo {
+  color: #000;
   font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
 }
 
 .navigation-link,
@@ -178,6 +181,19 @@ h2 {
 .address-link[href^="mailto:"] {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
+}
+
+.portfolio-item-btn {
+  border-radius: 4px;
+  background-color: var(--section-bg-color);
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.48px;
+}
+
+.portfolio-item-btn:hover {
+  background-color: var(--accent-color);
 }
 
 .portfolio-title {
