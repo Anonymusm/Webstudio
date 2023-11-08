@@ -11,6 +11,60 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 button {
   font-family: inherit;
   font-weight: 500;
@@ -20,35 +74,6 @@ h2 {
   color: var(--main-color);
   font-size: 36px;
   letter-spacing: 1.08px;
-}
-
-.navigation-list,
-.header-contact-list {
-  list-style-type: none;
-}
-
-.address-list {
-  list-style-type: none;
-}
-
-.team-list {
-  list-style-type: none;
-}
-
-.advantage-list {
-  list-style-type: none;
-}
-
-.work-list {
-  list-style-type: none;
-}
-
-.portfolio-btn-list {
-  list-style-type: none;
-}
-
-.portfolio-list {
-  list-style-type: none;
 }
 
 .logo {
@@ -85,6 +110,8 @@ h2 {
   background-color: var(--bg-color);
   color: var(--info-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .hero-title {
@@ -103,13 +130,9 @@ h2 {
   letter-spacing: 0.96px;
 }
 
-.advantage-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.advantage-item {
-  width: 350px;
+.advantage {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantage-title {
@@ -128,29 +151,13 @@ h2 {
 
 .work {
   text-align: center;
-}
-
-.work-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.work-item {
-  width: 450px;
+  padding-bottom: 94px;
 }
 
 .team {
-  text-align: center;
   background-color: var(--section-bg-color);
-}
-
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.team-box {
-  background-color: var(--info-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-item-title {
@@ -167,6 +174,8 @@ h2 {
 
 .footer {
   background-color: var(--bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
