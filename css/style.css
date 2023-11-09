@@ -111,7 +111,7 @@ h2 {
   color: var(--info-color);
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -195,6 +195,11 @@ h2 {
 .address-link[href^="mailto:"] {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
+}
+
+.portfolio {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .portfolio-item-btn {
