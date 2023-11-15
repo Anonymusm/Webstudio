@@ -97,7 +97,9 @@ h2 {
 
 .header-contact-list {
   display: flex;
-}
+  align-items: center;
+  }
+
 
 .navigation-link,
 .header-contact-link {
@@ -138,7 +140,7 @@ h2 {
   font-weight: 900;
   line-height: 1.36;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 2.64px;
 }
 
 .hero-btn {
