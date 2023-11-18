@@ -60,7 +60,7 @@ img {
   margin: 0 auto;
 }
 
-.header .container {
+.header-position {
   display: flex;
   align-items: center;
 }
@@ -88,18 +88,20 @@ h2 {
   letter-spacing: 0.78px;
   font-family: "Raleway", sans-serif;
   display: flex;
-  margin-right: 93px;
 }
 
 .navigation-list {
   display: flex;
+  margin-left: 93px;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-contact-list {
   display: flex;
   align-items: center;
-  }
-
+  margin-left: auto;
+}
 
 .navigation-link,
 .header-contact-link {
@@ -107,16 +109,19 @@ h2 {
   font-size: 14px;
   color: var(--main-color);
   letter-spacing: 0.28px;
-  margin-right: 50px;
 }
 
-.navigation-list {
-  margin-right: 344px;
+.navigation-item + .navigation-item {
+  margin-left: 50px;
 }
 
 .header-contact-link:hover,
 .navigation-link:hover {
   color: var(--accent-color);
+}
+
+.header-contact-item + .header-contact-item {
+  margin-left: 50px;
 }
 
 .header-contact-link {
@@ -150,6 +155,7 @@ h2 {
   line-height: 1.87;
   letter-spacing: 0.96px;
   margin-top: 30px;
+  border: none;
 }
 
 .advantage {
@@ -161,16 +167,17 @@ h2 {
   display: flex;
 }
 
-.advantage-item {
-  margin-right: 30px;
+.advantage-item + .advantage-item {
+  margin-left: 30px;
 }
 
 .advantage-title {
+  margin-bottom: 10px;
+
   font-size: 14px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
   line-height: 1.143;
-  margin-bottom: 10px;
 }
 
 .advantage-text {
@@ -191,10 +198,7 @@ h2 {
 
 .work-list {
   display: flex;
-}
-
-.work-img {
-  margin-right: 30px;
+  justify-content: space-between;
 }
 
 .team {
@@ -212,8 +216,8 @@ h2 {
   display: flex;
 }
 
-.team-item {
-  margin-right: 30px;
+.team-item + .team-item {
+  margin-left: 30px;
 }
 
 .team-box {
