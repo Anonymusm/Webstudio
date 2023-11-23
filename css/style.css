@@ -317,12 +317,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.portfolio-item:nth-child(2)
-  .portfolio-item:nth-child(3)
-  .portfolio-item:nth-child(5)
-  .portfolio-item:nth-child(6)
-  .portfolio-item:nth-child(8)
-  .portfolio-item:nth-child(9) {
+.portfolio-item {
   margin-left: auto;
 }
 
