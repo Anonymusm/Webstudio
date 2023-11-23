@@ -306,7 +306,8 @@ h2 {
 
 .portfolio-item {
   border: 1px solid #eee;
-  width: 370px;
+  width: 370px; 
+  margin-left: auto;
 }
 
 .portfolio-img {
@@ -315,10 +316,6 @@ h2 {
 
 .portfolio-item:nth-child(-n + 6) {
   margin-bottom: 30px;
-}
-
-.portfolio-item {
-  margin-left: auto;
 }
 
 .portfolio-title {
