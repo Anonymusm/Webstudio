@@ -68,7 +68,7 @@ img {
 header {
   padding-top: 24px;
   padding-bottom: 25px;
-    border: 1px solid #eee;
+  border: 1px solid #eee;
 }
 
 button {
@@ -313,12 +313,17 @@ h2 {
   width: 100%;
 }
 
-.portfolio-item:nth-child(-n+6) {
+.portfolio-item:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
 
-.portfolio-item {
-   margin-left: auto;
+.portfolio-item:nth-child(2)
+  .portfolio-item:nth-child(3)
+  .portfolio-item:nth-child(5)
+  .portfolio-item:nth-child(6)
+  .portfolio-item:nth-child(8)
+  .portfolio-item:nth-child(9) {
+  margin-left: auto;
 }
 
 .portfolio-title {
