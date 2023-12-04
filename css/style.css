@@ -321,13 +321,11 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  /* column-gap: 30px;
-  row-gap: 30px; */
 }
 
 .portfolio-item {
+  flex-basis: calc(100% / 3 - 30px );
   border: 1px solid #eee;
-  width: 370px;
 }
 
 .portfolio-img {
