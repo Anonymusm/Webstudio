@@ -140,9 +140,8 @@ h2 {
   padding-bottom: 200px;
 
   background-image: 
-  /* linear-gradient(to bottom, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.40)), */
-    url("../images/hero-bg.png");
-    background-repeat: no-repeat;
+  /* linear-gradient(to bottom, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.40)), */ url("../images/hero-bg.png");
+  background-repeat: no-repeat;
   color: var(--info-color);
 }
 
@@ -179,22 +178,38 @@ h2 {
 
 .advantage-list {
   display: flex;
+  column-gap: 30px;
 }
 
 .advantage-item {
-  flex-basis: 270px;
-}
-
-.advantage-item + .advantage-item {
-  margin-left: 30px;
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .advantage-item::before {
   content: "";
   border-radius: 4px;
-  background: #f5f4fa;
   height: 120px;
   display: block;
+}
+
+.advantage-item:nth-child(1)::before {
+  background: url("../images/details.png");
+  content: "";
+}
+
+.advantage-item:nth-child(2)::before {
+  background: url("../images/time.png");
+  content: "";
+}
+
+.advantage-item:nth-child(3)::before {
+  background: url("../images/plan.png");
+  content: "";
+}
+
+.advantage-item:nth-child(4)::before {
+  background: url("../images/technology.png");
+  content: "";
 }
 
 .advantage-title {
@@ -253,7 +268,7 @@ h2 {
 .team-item {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-   flex-basis: calc(100% / 4 - 30px);
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .team-box {
