@@ -144,6 +144,9 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--info-color);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -252,6 +255,9 @@ h2 {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+    max-width: 1600px;
+      margin-left: auto;
+      margin-right: auto;
 
   background-color: var(--section-bg-color);
 }
@@ -298,6 +304,9 @@ h2 {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 
   background-color: var(--bg-color);
 }
