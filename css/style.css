@@ -7,6 +7,11 @@
   --info-color: #ffffff;
 }
 
+:hover {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -108,6 +113,10 @@ h2 {
   column-gap: 50px;
 }
 
+.navigation-item {
+  position: relative;
+}
+
 .header-contact-list {
   display: flex;
   align-items: center;
@@ -133,8 +142,7 @@ h2 {
 }
 
 .header-contact-link {
-  color: var(--text-color);  
-  position: relative;
+  color: var(--text-color);
 }
 
 .header-contact-link:hover,
@@ -149,8 +157,8 @@ h2 {
   height: 4px;
   background: var(--accent-color);
   position: absolute;
-  top: 28px;
-  
+  top: 45px;
+  width: 100%;
 }
 
 .header-contact-link:hover .header-icon {
@@ -222,13 +230,14 @@ h2 {
 
 .backdrop {
   position: fixed;
-    left: 50%;
-      top: 50%;
+  left: 50%;
+  top: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
+  transition-duration: 500ms;
 }
 
 .backdrop.is-hidden {
@@ -644,6 +653,7 @@ h2 {
   font-size: 14px;
   color: var(--info-color);
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .footer-list {
@@ -670,6 +680,46 @@ h2 {
   fill: #fff;
   width: 20px;
   height: 20px;
+}
+
+.telegram-wrapper {
+  padding-left: 93px;
+}
+
+.telegram-field {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: transparent;
+  padding-left: 16px;
+}
+
+.telegram-btn {
+  padding: 10px 28px;
+  margin-left: 12px;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  width: 200px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--info-color);
+  border: none;
+  position: relative;
+  text-align: left;
+}
+
+.telegram-amount {
+  margin-right: 10px;
+}
+
+.telegram-icon {
+  position: absolute;
+  top: 13px;
 }
 
 .portfolio {
