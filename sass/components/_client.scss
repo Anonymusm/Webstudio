@@ -1,0 +1,40 @@
+.client {
+    padding: 95px 0 93px 0;
+}
+
+.client-title {
+    font-family: var(--font-family);
+    font-size: 36px;
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+.client-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.client-item {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+}
+
+.client-item:hover {
+    border-color: #2196f3;
+}
+
+.client-icon {
+    fill: #afb1b8;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.client-icon:hover {
+    fill: #2196f3;
+}

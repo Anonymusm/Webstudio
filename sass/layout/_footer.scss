@@ -1,0 +1,116 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: var(--bg-color);
+}
+
+.footer-position {
+  display: flex;
+}
+
+.footer-content {
+  padding-right: 70px;
+}
+
+.footer-logo {
+    display: block;
+  color: var(--info-color);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+}
+
+.address-link {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--info-color);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.address-link[href^="tel:"],
+.address-link[href^="mailto:"] {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+}
+
+.footer-title {
+  font-size: 14px;
+  color: var(--info-color);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  width: 206px;
+}
+
+.footer-socials-link {
+  padding: 12px;
+  display: block;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-socials-icon {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.telegram-wrapper {
+  padding-left: 93px;
+}
+
+.telegram-field {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: transparent;
+  padding-left: 16px;
+}
+
+.telegram-btn {
+  padding: 10px 28px;
+  margin-left: 12px;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  width: 200px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--info-color);
+  border: none;
+  position: relative;
+  text-align: left;
+}
+
+.telegram-amount {
+  margin-right: 10px;
+}
+
+.telegram-icon {
+  position: absolute;
+  top: 13px;
+}

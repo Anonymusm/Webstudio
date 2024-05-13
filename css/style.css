@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --accent-color: #2196f3;
   --main-color: #212121;
   --text-color: #757575;
@@ -14,13 +14,13 @@
 
 body {
   font-family: "Roboto", sans-serif;
-}
+} */
 
-button {
+/* button {
   cursor: pointer;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -57,24 +57,13 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.header-position {
-  display: flex;
-  align-items: center;
-}
-
-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #eee;
-}
+} */
 
 button {
   font-family: inherit;
@@ -87,8 +76,15 @@ h2 {
   letter-spacing: 1.08px;
 }
 
-.hero h1 {
-  margin-bottom: 30px;
+/* .header-position {
+  display: flex;
+  align-items: center;
+} */
+
+/* header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #eee;
 }
 
 .logo {
@@ -146,6 +142,10 @@ h2 {
   color: var(--accent-color);
 }
 
+.navigation-link {
+  position: relative;
+}
+
 .navigation-link:hover::after {
   content: "";
   display: block;
@@ -183,9 +183,9 @@ h2 {
 
 .accent-logo {
   color: var(--accent-color);
-}
+} */
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
 
@@ -196,6 +196,10 @@ h2 {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero h1 {
+  margin-bottom: 30px;
 }
 
 .hero-title {
@@ -383,9 +387,9 @@ h2 {
 
 .politic-wrapper {
   padding: 0 50px;
-}
+} */
 
-.advantage {
+/* .advantage {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -441,9 +445,9 @@ h2 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.42px;
-}
+} */
 
-.work {
+/* .work {
   text-align: center;
   padding-bottom: 94px;
 }
@@ -476,9 +480,9 @@ h2 {
     rgba(47, 48, 58, 0.6),
     rgba(47, 48, 58, 0.7)
   );
-}
+} */
 
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
   max-width: 1600px;
@@ -562,9 +566,9 @@ h2 {
   letter-spacing: 0.48px;
   text-align: center;
   margin-bottom: 28px;
-}
+} */
 
-.client {
+/* .client {
   padding: 95px 0 93px 0;
 }
 
@@ -603,9 +607,9 @@ h2 {
 
 .client-icon:hover {
   fill: #2196f3;
-}
+} */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   max-width: 1600px;
@@ -716,9 +720,9 @@ h2 {
 .telegram-icon {
   position: absolute;
   top: 13px;
-}
+} */
 
-.portfolio {
+/* .portfolio {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -820,4 +824,4 @@ h2 {
   color: var(--text-color);
   line-height: 1.875;
   letter-spacing: 0.48px;
-}
+} */
