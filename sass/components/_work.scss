@@ -1,6 +1,5 @@
 .work {
   text-align: center;
-  padding-bottom: 94px;
 }
 
 .work__title {
@@ -8,8 +7,7 @@
 }
 
 .work__list {
-  display: flex;
-  justify-content: center;
+  @extend %flex;
   column-gap: 30px;
 }
 

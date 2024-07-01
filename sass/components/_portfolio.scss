@@ -1,6 +1,5 @@
 .portfolio {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  @extend %section-padding;
 }
 
 .buttons__list {
@@ -31,10 +30,10 @@
 }
 
 .portfolio__list {
-  display: flex;
+  @include gap($gap:30px);
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  row-gap: 30px;
 }
 
 .portfolio__item {

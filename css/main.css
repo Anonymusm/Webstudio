@@ -1,3 +1,19 @@
+.work__list, .socials__list, .client__list, .header-contact__list, .navigation__list, .header-position, .footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team, .hero, .footer {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.team, .client, .portfolio, .advantage {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 h1,
 h2,
 h3,
@@ -56,9 +72,6 @@ body {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #2f303a;
 }
 
@@ -104,9 +117,6 @@ body {
 }
 
 .footer__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
   width: 206px;
@@ -170,11 +180,6 @@ body {
   top: 13px;
 }
 
-.header-position {
-  display: flex;
-  align-items: center;
-}
-
 header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -191,10 +196,7 @@ header {
 }
 
 .navigation__list {
-  display: flex;
   margin-left: 93px;
-  justify-content: center;
-  align-items: center;
   -moz-column-gap: 50px;
        column-gap: 50px;
 }
@@ -204,8 +206,6 @@ header {
 }
 
 .header-contact__list {
-  display: flex;
-  align-items: center;
   margin-left: auto;
 }
 
@@ -279,11 +279,6 @@ header {
   color: #2196f3;
 }
 
-.advantage {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .advantage__list {
   display: flex;
   -moz-column-gap: 30px;
@@ -343,9 +338,6 @@ header {
   background-image: url("../images/overlay.png"), url("../images/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero h1 {
@@ -547,11 +539,6 @@ header {
   padding: 0 50px;
 }
 
-.portfolio {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
 .buttons__list {
   display: flex;
   justify-content: center;
@@ -580,9 +567,11 @@ header {
 
 .portfolio__list {
   display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  row-gap: 30px;
 }
 
 .portfolio__item {
@@ -640,10 +629,6 @@ header {
   letter-spacing: 0.48px;
 }
 
-.client {
-  padding: 95px 0 93px 0;
-}
-
 .client__title {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -653,9 +638,6 @@ header {
 }
 
 .client__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
@@ -683,11 +665,6 @@ header {
 }
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: var(--section-bg-color);
 }
 
@@ -708,13 +685,10 @@ header {
 }
 
 .team__box {
-  background-color: var(--info-color);
+  background-color: #ffffff;
 }
 
 .socials__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 206px;
   margin: 0 auto;
 }
@@ -722,10 +696,10 @@ header {
 .socials__item {
   padding-bottom: 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .socials__link {
@@ -769,7 +743,6 @@ header {
 
 .work {
   text-align: center;
-  padding-bottom: 94px;
 }
 
 .work__title {
@@ -777,8 +750,6 @@ header {
 }
 
 .work__list {
-  display: flex;
-  justify-content: center;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }

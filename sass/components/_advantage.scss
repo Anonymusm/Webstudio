@@ -1,11 +1,9 @@
 .advantage {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @extend %section-padding;
 }
 
 .advantage__list {
-  display: flex;
-  column-gap: 30px;
+  @include gap($gap: 30px)
 }
 
 .advantage__item {

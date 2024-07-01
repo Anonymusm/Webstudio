@@ -1,108 +1,105 @@
 .header-position {
-    display: flex;
-    align-items: center;
+  @extend %flex;
 }
 
 header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #eee;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #eee;
 }
 
 .header .logo {
-    display: flex;
+  display: flex;
 
-    color: #000;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    font-family: "Raleway", sans-serif;
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  font-family: "Raleway", sans-serif;
 }
 
 .navigation__list {
-    display: flex;
-    margin-left: 93px;
-    justify-content: center;
-    align-items: center;
-    column-gap: 50px;
+  @extend %flex;
+  margin-left: 93px;
+
+  column-gap: 50px;
 }
 
 .navigation__item {
-    position: relative;
+  position: relative;
 }
 
 .header-contact__list {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  @extend %flex;
+  margin-left: auto;
 }
 
 .navigation__link,
 .header-contact-link {
-    font-weight: 500;
-    font-size: 14px;
-    color: $main-color;
-    letter-spacing: 0.28px;
+  font-weight: 500;
+  font-size: 14px;
+  color: $main-color;
+  letter-spacing: 0.28px;
 }
 
-.header-contact__item+.header-contact__item {
-    margin-left: 50px;
+.header-contact__item + .header-contact__item {
+  margin-left: 50px;
 }
 
 .header-contact__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-contact__link {
-    color: $text-color;
+  color: $text-color;
 }
 
 .header-contact__link:hover,
 .navigation__link:hover {
-    color: $accent-color;
+  color: $accent-color;
 }
 
 .navigation__link {
-    position: relative;
+  position: relative;
 }
 
 .navigation__link:hover::after {
-    content: "";
-    display: block;
-    border-radius: 2px;
-    height: 4px;
-    background: $accent-color;
-    position: absolute;
-    top: 45px;
-    width: 100%;
+  content: "";
+  display: block;
+  border-radius: 2px;
+  height: 4px;
+  background: $accent-color;
+  position: absolute;
+  top: 45px;
+  width: 100%;
 }
 
 .header-contact__link:hover .header__icon {
-    fill: $accent-color;
+  fill: $accent-color;
 }
 
 .header__icon {
-    fill: #757575;
+  fill: #757575;
 }
 
 .header__icon:hover {
-    fill: $accent-color;
+  fill: $accent-color;
 }
 
 .svg-smartphone {
-    height: 16px;
-    width: 10px;
-    margin-right: 10px;
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
 }
 
 .svg-email {
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
 }
 
 .accent__logo {
-    color: $accent-color;
+  color: $accent-color;
 }
