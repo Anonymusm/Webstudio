@@ -39,12 +39,6 @@
       position: relative;
     }
   
-    .header-contact__list {
-      display: flex;
-        flex-direction: column;
-        row-gap: 10px;
-    }
-  
     .navigation__link,
     .header-contact-link {
       font-weight: 500;
@@ -92,6 +86,10 @@
     .header__icon:hover {
       fill: $accent-color;
     }
+
+    .header-contact__item:nth-child(2) {
+          margin-top: 10px;
+    }
   
     .svg-smartphone {
       height: 16px;
@@ -117,10 +115,12 @@
       justify-content: center;
     }
   
-    header {
+    .header {
       padding-top: 24px;
       padding-bottom: 25px;
       border-bottom: 1px solid #eee;
+      max-width: 1600px;
+      margin: 0 auto;
     }
   
     .header .logo {

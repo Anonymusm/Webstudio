@@ -116,33 +116,35 @@
     content: "";
     border-radius: 4px;
     height: 120px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .advantage__item:nth-child(1)::before {
     background-image: url("../images/details.png");
     background-repeat: no-repeat;
-    background-size: 354px 120px;
+    // background-size: 354px 120px;
     content: "";
   }
 
   .advantage__item:nth-child(2)::before {
     background-image: url("../images/time.png");
-    background-size: 354px 120px;
+    // background-size: 354px 120px;
     background-repeat: no-repeat;
     content: "";
   }
 
   .advantage__item:nth-child(3)::before {
     background-image: url("../images/plan.png");
-    background-size: 354px 120px;
+    // background-size: 354px 120px;
     background-repeat: no-repeat;
     content: "";
   }
 
   .advantage__item:nth-child(4)::before {
     background-image: url("../images/technology.png");
-    background-size: 354px 120px;
+    // background-size: 354px 120px;
     background-repeat: no-repeat;
     content: "";
   }
@@ -171,45 +173,52 @@
 .advantage {
     padding-top: 94px;
     padding-bottom: 94px;
+    margin: 0 auto;
+    max-width: 1600px;
   }
 
-  .advantage-list {
+  .advantage__list {
     display: flex;
     column-gap: 30px;
+    flex-wrap: nowrap;
   }
 
-  .advantage-item {
-    flex-basis: calc(100% / 4 - 30px);
+  .advantage__item {
+   flex-basis: calc((100% - 90px) / 4);
   }
 
-  .advantage-item::before {
+  .advantage__item::before {
     content: "";
     border-radius: 4px;
     height: 120px;
     display: block;
   }
 
-  .advantage-item:nth-child(1)::before {
-    background: url("../images/details.png");
+  .advantage__item:nth-child(1)::before {
+    background-image: url("../images/details.png");
+    background-repeat: no-repeat;
     content: "";
   }
 
-  .advantage-item:nth-child(2)::before {
-    background: url("../images/time.png");
+  .advantage__item:nth-child(2)::before {
+    background-image: url("../images/time.png");
+    background-repeat: no-repeat;
     content: "";
   }
 
-  .advantage-item:nth-child(3)::before {
-    background: url("../images/plan.png");
+  .advantage__item:nth-child(3)::before {
+    background-image: url("../images/plan.png");
+    background-repeat: no-repeat;
     content: "";
   }
 
-  .advantage-item:nth-child(4)::before {
-    background: url("../images/technology.png");
+  .advantage__item:nth-child(4)::before {
+    background-image: url("../images/technology.png");
+    background-repeat: no-repeat;
     content: "";
   }
 
-  .advantage-title {
+  .advantage__title {
     margin-bottom: 10px;
     margin-top: 30px;
     font-size: 14px;
@@ -218,7 +227,7 @@
     line-height: 1.143;
   }
 
-  .advantage-text {
+  .advantage__text {
     color: var(--text-color);
     font-size: 14px;
     line-height: 1.71;
