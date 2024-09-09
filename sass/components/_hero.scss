@@ -63,8 +63,8 @@
 
 .modal {
   position: absolute;
-  left: 26%;
-  top: 38%;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 4px;
   width: 450px;
@@ -273,7 +273,7 @@
   .modal {
     position: absolute;
     left: 50%;
-    top: 90%;
+    top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 4px;
     width: 450px;
@@ -621,6 +621,6 @@
   }
 
   .politic__wrapper {
-    padding: 0 50px;
+  margin: 0 auto;
   }
 }

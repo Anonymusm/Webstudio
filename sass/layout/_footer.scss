@@ -274,10 +274,6 @@
     display: flex;
   }
 
-  .footer__content {
-    padding-right: 70px;
-  }
-
   .footer__logo {
     display: block;
     color: $info-color;
@@ -319,6 +315,11 @@
     width: 206px;
   }
 
+  .socials {
+    text-align: left;
+    padding-bottom: 140px;
+  }
+
   .footer-socials__link {
     padding: 12px;
     display: block;
@@ -339,6 +340,11 @@
 
   .telegram__wrapper {
     padding-left: 93px;
+    text-align: left;
+  }
+
+  .footer__form {
+    flex-direction: row;
   }
 
   .telegram__field {
